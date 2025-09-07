@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/prison.png">
+    <title>Jail Management</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="https://kit.fontawesome.com/aa6d55bc68.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+    <header class="header-container">
+        <div class="sidebar-toggle-btn" id="sidebarToggle"><img src="images/hamburger.png" height="20px" width="20px"></div>
+        <div class="head-logo">
+            <img src="images/pnp-main-logo.png" alt="logo">
+            <span class="logo-text">Caloocan Police Jail Management System</span>
+        </div>
+
+        <div class="user-avatar-dropdown">
+            <div class="button-dropdown" id="openBtn">
+                <img src="images/admin-colored.png" height="40px" width="40px">
+                <img src="images/drop-down-arrow.png" height="15px" width="15px">
+            </div>
+            <div class="dropdown-content" id="modalBox">
+                <div class="user-info">
+                    <img src="images/admin-colored.png" height="40px" width="40px">
+                    <div class="user-info-name">
+                        <h4>Dion Areglo</h4>
+                        <p>Administrator</p>
+                    </div>
+                </div>
+                <div class="user-links">
+                    <a href="#" class="nav-link" id="edit-profile-link" data-page="edit-profile.html"><img src="images/edit.png" height="25px" width="25px"><p>Edit Profile</p></a>
+                    <a href="#" class="nav-link"><img src="images/settings.png" height="25px" width="25px"><p>Settings</p></a>
+                    <a href="#" class="nav-link"><img src="images/save-instagram.png" height="25px" width="25px"><p>Saves</p></a>
+                </div>
+                <div class="logout">
+                    <a href="#" class="nav-link"><img src="images/logout.png" height="25px" width="25px"><p>Log Out</p></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="sidebar-container" id="contentSideBtn">
+        <div class="close-Button" id="closeSideBtn"><img src="images/closeexit.png" height="20px" width="20px"></div>
+        <ul>
+            <li><a href="#" class="nav-link" data-page="dashboard.html"><img src="images/dashboard.png" width="25px" height="25px"><p>Dashboard</p></a></li>
+            <li><a href="#" class="nav-link" data-page="booking.html"><img src="images/booking.png" width="25px" height="25px"><p>Booking</p></a></li>
+            <li><a href="#" class="nav-link" data-page="inmates.html"><img src="images/inmate.png" width="25px" height="25px"><p>Inmates</p></a></li>
+            <li><a href="#" class="nav-link" data-page="visitors.html"><img src="images/visitors.png" width="25px" height="25px"><p>Visitor Manager</p></a></li>
+            <li><a href="#" class="nav-link" data-page="sentence.html"><img src="images/clock.png" width="25px" height="25px"><p>Sentence Tracking</p></a></li>
+            <li><a href="#" class="nav-link" data-page="events.html"><img src="images/calendar.png" width="25px" height="25px"><p>Events</p></a></li>
+            <li><a href="#" class="nav-link" data-page="staff.html"><img src="images/policeman.png" width="25px" height="25px"><p>Staff Manager</p></a></li>
+            <li><a href="#" class="nav-link" data-page="analytics.html"><img src="images/analytics.png" width="25px" height="25px"><p>Analytics</p></a></li>
+        </ul>
+    </nav>
+
+    <section class="main-content-container">
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
